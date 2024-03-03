@@ -1,0 +1,4 @@
+VALID_COUNTRIES = ['France', 'Côte d\'ivoire', 'Madagascar', 'Bénin', 'Allemagne'
+                  , 'USA']
+mask = ~data['pays'].isin(VALID_COUNTRIES)
+data.loc[mask, 'pays'] = np.NaN
