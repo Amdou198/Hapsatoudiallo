@@ -1,0 +1,1 @@
+data.loc[data['taille'].isnull(), 'taille'] = data['taille'].mean()
