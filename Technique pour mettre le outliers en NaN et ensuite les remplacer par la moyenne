@@ -1,0 +1,2 @@
+data['taille'] = data['taille'].str[:-1]
+data['taille'] = pd.to_numeric(data['taille'], errors='coerce')
