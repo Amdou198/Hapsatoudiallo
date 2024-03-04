@@ -1,0 +1,2 @@
+data['date_naissance'] = pd.to_datetime(data['date_naissance'], 
+                                           format='%d/%m/%Y', errors='coerce')
